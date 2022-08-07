@@ -13,10 +13,16 @@ public class Main {
 
         cc.transferir(cp,100.0);
         cp.transferir(cc,50.0);
-        cc.sacar(30.0);
-
+        cc.sacar(100.0);
+        System.out.println();
         cc.extrato();
         cp.extrato();
+        System.out.println();
+        cc.transferir(cc,550.0);
+        System.out.println();
+        cc.extrato();
+        cp.extrato();
+
 
     }
 
